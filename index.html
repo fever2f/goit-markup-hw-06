@@ -508,7 +508,7 @@
           <ul class="modal-form">
             <li class="modal-form-field">
               <label class="modal-label" for="name">Имя</label>
-              <div class="hover">
+              <div class="hover-container">
                 <input class="modal-input-field" type="text" name="name" id="name">
                 <svg class="modal-input-svg" width="12" height="12">
                   <use href="./images/sprite.svg#icon-modal-person"></use>
@@ -516,22 +516,28 @@
               </div>
             </li>
             <li class="modal-form-field">
-              <svg class="modal-input-svg" width="13" height="13">
-                <use href="./images/sprite.svg#icon-modal-phone"></use>
-              </svg>
               <label class="modal-label" for="tel">Телефон</label>
-              <input class="modal-input-field" type="tel" name="tel" id="tel">
+              <div class="hover-container">
+                <input class="modal-input-field" type="tel" name="tel" id="tel">
+                <svg class="modal-input-svg" width="13" height="13">
+                  <use href="./images/sprite.svg#icon-modal-phone"></use>
+                </svg>
+              </div>
             </li>
             <li class="modal-form-field">
-              <svg class="modal-input-svg" width="15" height="12">
-                <use href="./images/sprite.svg#icon-modal-mail"></use>
-              </svg>
               <label class="modal-label" for="mail">Почта</label>
-              <input class="modal-input-field" type="email" name="mail" id="mail">
+              <div class="hover-container">
+                <input class="modal-input-field" type="email" name="mail" id="mail">
+                <svg class="modal-input-svg" width="15" height="12">
+                  <use href="./images/sprite.svg#icon-modal-mail"></use>
+                </svg>
+              </div>
             </li>
             <li class="modal-form-field">
               <label class="modal-label" for="textarea">Комментарий</label>
-              <textarea class="modal-textarea" name="textarea" id="textarea" placeholder="Введите текст"></textarea>
+              <div class="hover-container">
+                <textarea class="modal-textarea" name="textarea" id="textarea" placeholder="Введите текст"></textarea>
+              </div>
             </li>
             <li class="checkbox">
               <input type="checkbox" name="accept" id="accept">

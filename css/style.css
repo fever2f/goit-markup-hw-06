@@ -758,6 +758,11 @@ footer {
   border-radius: 50%;
 }
 
+.modal-close-button:hover {
+  cursor: pointer;
+  fill: var(--secondary-accent-color);
+}
+
 .backdrop-title {
   margin: 0;
   padding-top: 40px;
@@ -803,6 +808,7 @@ footer {
 }
 
 .modal-textarea {
+  width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -869,15 +875,21 @@ footer {
   justify-content: center;
 }
 
-.hover:hover {
+.hover-container:hover .modal-input-field,
+.hover-container:focus-within .modal-input-field {
   cursor: pointer;
-  color: var(--secondary-accent-color);
-  border: 1px solid #2196f3;
-  /* box-sizing: border-box; */
-  border-radius: 4px;
+  border-color: var(--secondary-accent-color);
   outline: none;
 }
 
-.hover:hover .modal-input-svg {
+.hover-container:hover .modal-input-svg,
+.hover-container:focus-within .modal-input-svg {
   fill: var(--secondary-accent-color);
+}
+
+.hover-container:hover .modal-textarea,
+.hover-container:focus-within .modal-textarea {
+  cursor: pointer;
+  border-color: var(--secondary-accent-color);
+  outline: none;
 }

@@ -842,7 +842,9 @@ footer {
 
 .modal-input-svg {
   position: absolute;
-  top: 37px;
+  /* top: 37px; */
+  top: 75%;
+  transform: translateY(-75%);
   left: 15px;
   pointer-events: none;
   fill: #212121;
@@ -898,11 +900,15 @@ footer {
   cursor: pointer;
   border-color: var(--secondary-accent-color);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover-container:hover .modal-input-svg,
 .hover-container:focus-within .modal-input-svg {
   fill: var(--secondary-accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover-container:hover .modal-textarea,
@@ -910,4 +916,6 @@ footer {
   cursor: pointer;
   border-color: var(--secondary-accent-color);
   outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

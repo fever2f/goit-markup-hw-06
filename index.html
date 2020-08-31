@@ -496,13 +496,59 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidde" data-modal>
       <div class="modal">
         <button class="modal-close-button" data-modal-close>
           <svg width="11px" height="11px">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <h2 class="backdrop-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form action="">
+          <ul class="modal-form">
+            <li class="modal-form-field">
+              <svg class="modal-input-svg" width="12" height="12">
+                <use href="./images/sprite.svg#icon-modal-person"></use>
+              </svg>
+              <label class="modal-label" for="name">Имя</label>
+              <input class="modal-input-field" type="text" name="name" id="name">
+            </li>
+            <li class="modal-form-field">
+              <svg class="modal-input-svg" width="13" height="13">
+                <use href="./images/sprite.svg#icon-modal-phone"></use>
+              </svg>
+              <label class="modal-label" for="tel">Телефон</label>
+              <input class="modal-input-field" type="tel" name="tel" id="tel">
+            </li>
+            <li class="modal-form-field">
+              <svg class="modal-input-svg" width="15" height="12">
+                <use href="./images/sprite.svg#icon-modal-mail"></use>
+              </svg>
+              <label class="modal-label" for="mail">Почта</label>
+              <input class="modal-input-field" type="email" name="mail" id="mail">
+            </li>
+            <li class="modal-form-field">
+              <label class="modal-label" for="textarea">Комментарий</label>
+              <textarea class="modal-textarea" name="textarea" id="textarea" placeholder="Введите текст"></textarea>
+            </li>
+          </ul>
+          <!-- <div class="modal-form-field">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="modal-form-field">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel">
+          </div>
+          <div class="modal-form-field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail">
+          </div>
+          <div class="modal-form-field">
+            <label for="textarea">Комментарий</label>
+            <textarea name="textarea" id="textarea" placeholder="Введите текст"></textarea>
+          </div> -->
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

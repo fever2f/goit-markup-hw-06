@@ -151,7 +151,7 @@ header {
 }
 
 .footer-links-list li:not(:last-child) {
-  /* margin-right: 10px; */
+  margin-right: 10px;
 }
 
 .header-div {

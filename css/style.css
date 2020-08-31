@@ -534,7 +534,7 @@ footer {
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-accent-color);
@@ -559,6 +559,25 @@ footer {
 .footer-container-2 {
   margin-right: 30px;
   width: 270px;
+}
+
+.footer-container-3 {
+  width: 570px;
+  outline: 1px solid red;
+}
+
+.footer-email-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-input {
+  height: 50px;
+  margin-right: 12px;
+}
+
+.footer-btn {
+  height: 50px;
 }
 
 .projects-list-item:hover {

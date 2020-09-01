@@ -496,7 +496,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidde" data-modal>
       <div class="modal">
         <button class="modal-close-button" data-modal-close>
           <svg width="11px" height="11px">
@@ -539,11 +539,12 @@
                 <textarea class="modal-textarea" name="textarea" id="textarea" placeholder="Введите текст"></textarea>
               </div>
             </li>
-            <li class="checkbox">
-              <input type="checkbox" name="accept" id="accept">
-              <label for="accept">Соглашаюсь с рассылкой и принимаю
-                <a class="checkbox-link" href="">Условия договора</a>
-              </label>
+            <li class="checkbox-field">
+              <label class="checkbox-label" for="accept">
+                <input class="checkbox" type="checkbox" name="accept" id="accept"><span class="checkbox-icon"></span>
+                <div>Соглашаюсь с рассылкой и принимаю
+                <a class="checkbox-link" href="">Условия договора</a></div>
+                </label>
             </li>
             <li class="modal-btn-item">
               <button class="modal-btn" type="submit">Отправить</button>
